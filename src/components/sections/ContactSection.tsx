@@ -88,7 +88,7 @@ export function ContactSection() {
             <h4 className="text-2xl mb-3">
               Let's Build Something Great Together!
             </h4>
-            <p className="text-blue-50 mb-4">
+            <p className="text-blue-50 mb-4 text-justify">
               I'm currently available for freelance projects and full-time
               opportunities. Whether you need a web application, mobile app, or
               technical consultation, I'm here to help bring your vision to

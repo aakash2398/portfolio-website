@@ -13,22 +13,22 @@ const highlights = [
 
 const experience = [
   {
-    title: "Senior Flutter Developer",
-    company: "Tech Startup",
+    title: "Full-Stack Web & Flutter Developer",
+    company: "Freelance",
     period: "2022 - Present",
-    description: "Leading mobile app development, implementing clean architecture, and mentoring junior developers.",
+    description: "Working as a freelance developer delivering end-to-end mobile and web solutions for startups, small businesses, and individual clients.",
+  },
+  {
+    title: "Flutter Developer",
+    company: "Freelance/Contract Projects",
+    period: "2024 - Present",
+    description: "Developed and maintained cross-platform mobile applications for various clients using Flutter.",
   },
   {
     title: "Full-Stack Web Developer",
-    company: "Digital Agency",
-    period: "2021 - 2022",
-    description: "Built responsive web applications and admin dashboards using React and Node.js.",
-  },
-  {
-    title: "Mobile App Developer",
     company: "Freelance",
-    period: "2020 - 2021",
-    description: "Developed cross-platform mobile applications for various clients and startups.",
+    period: "2022 - 2024",
+    description: "Built responsive web applications and admin dashboards using React and Node.js.",
   },
 ];
 
