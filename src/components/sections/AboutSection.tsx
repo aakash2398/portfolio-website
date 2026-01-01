@@ -27,7 +27,7 @@ export function AboutSection() {
   return (
     <section id="about" className="py-20 md:py-32 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
-      
+
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -40,20 +40,42 @@ export function AboutSection() {
           {/* Content */}
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-              I'm <span className="text-foreground font-semibold">Aakash Kumar</span>, a 
-              <span className="text-primary font-semibold"> Flutter & Full-Stack Web Developer</span> with 
-              <span className="text-foreground font-semibold"> 3+ years of experience</span> in building 
-              scalable, secure, and user-friendly mobile and web applications. I specialize in <span className="text-foreground font-medium">Flutter, React, Firebase</span>, 
-              and modern web technologies, helping startups and businesses turn ideas into production-ready 
-              digital solutions. With a strong emphasis on <span className="text-foreground font-medium">clean architecture, 
-              performance optimization</span>, and real-world problem solving, I deliver solutions that 
-              not only meet but exceed expectations.
+              I'm{" "}
+              <span className="text-foreground font-semibold">
+                Aakash Kumar
+              </span>
+              , a
+              <span className="text-primary font-semibold">
+                {" "}
+                Flutter & Full-Stack Web Developer
+              </span>{" "}
+              with
+              <span className="text-foreground font-semibold">
+                {" "}
+                3+ years of experience
+              </span>{" "}
+              in building scalable, secure, and user-friendly mobile and web
+              applications. I specialize in{" "}
+              <span className="text-foreground font-medium">
+                Flutter, React, Firebase
+              </span>
+              , and modern web technologies, helping startups and businesses
+              turn ideas into production-ready digital solutions. With a strong
+              emphasis on{" "}
+              <span className="text-foreground font-medium">
+                clean architecture, performance optimization
+              </span>
+              , and real-world problem solving, I deliver solutions that not
+              only meet but exceed expectations.
             </p>
 
-            <div className="pt-4 p-6 rounded-xl glass-card">
+            <div className="pt-4 p-6 rounded-xl glass-card mt-3">
               <p className="text-muted-foreground">
-                🌍 <span className="text-foreground font-medium">Open to remote roles</span> and 
-                freelance projects. Let's build something amazing together!
+                🌍{" "}
+                <span className="text-foreground font-medium">
+                  Open to remote roles
+                </span>{" "}
+                and freelance projects. Let's build something amazing together!
               </p>
             </div>
           </div>
@@ -69,8 +91,12 @@ export function AboutSection() {
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-1">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.description}</p>
+                <h3 className="font-semibold text-foreground mb-1">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>

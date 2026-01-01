@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Logo } from "../logo";
 
 const navLinks = [
@@ -20,7 +19,7 @@ export function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 5);
 
       // Update active section based on scroll position
       const sections = navLinks.map((link) => link.href.slice(1));
@@ -89,15 +88,7 @@ export function Navbar() {
             ))}
           </div>
 
-          {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-3">
-            <Button variant="hero" size="sm" asChild>
-              <a href="/resume.pdf" download>
-                <Download className="w-4 h-4" />
-                Resume
-              </a>
-            </Button>
-          </div>
+         
 
           {/* Mobile Menu Button */}
           <button
@@ -112,7 +103,7 @@ export function Navbar() {
         {/* Mobile Navigation */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-300 ${
-            isOpen ? "max-h-96 pb-6" : "max-h-0"
+            isOpen ? "max-h-96 pb-6 mb-5" : "max-h-0"
           }`}
         >
           <div className="flex flex-col gap-2 pt-4">
@@ -133,12 +124,7 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
-            <Button variant="hero" className="mt-4" asChild>
-              <a href="/resume.pdf" download>
-                <Download className="w-4 h-4" />
-                Download Resume
-              </a>
-            </Button>
+            
           </div>
         </div>
       </div>
