@@ -4,19 +4,19 @@ const skillCategories = [
   {
     icon: Smartphone,
     title: "Mobile Development",
-    skills: ["Flutter", "Dart", "Android", "iOS"],
+    skills: ["Flutter", "Dart", "Android", "iOS","State Management"],
     color: "from-blue-500 to-cyan-500",
   },
   {
     icon: Globe,
     title: "Web Development",
-    skills: ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "TypeScript","Tailwind CSS"],
     color: "from-purple-500 to-pink-500",
   },
   {
     icon: Server,
     title: "Backend & APIs",
-    skills: ["Firebase", "REST APIs", "Node.js", "Express"],
+    skills: ["Firebase", "REST & Third-party APIs", "Node.js", "Express"],
     color: "from-green-500 to-emerald-500",
   },
   {
