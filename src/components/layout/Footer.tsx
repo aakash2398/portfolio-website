@@ -104,7 +104,7 @@ export function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className=" ">
+          <div>
             <h3 className=" mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
