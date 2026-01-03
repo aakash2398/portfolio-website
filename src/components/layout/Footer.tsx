@@ -66,7 +66,7 @@ export function Footer() {
   return (
     <footer className="py-8 border-t border-border/50 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-10 mb-0">
+        <div className="grid md:grid-cols-3 gap-10 mb-8">
           {/* Logo and Description */}
           <div>
             <Logo className="mb-4" />
@@ -143,11 +143,11 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        {/* <div className="pt-8 border-t border-gray-800 text-center text-muted-foreground">
+        <div className="pt-8 border-t border-gray-800 text-center text-muted-foreground">
           <p className="flex items-center justify-center gap-2">
-            © {currentYear} Aakash. Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and React
+            © {currentYear} Aakash Kumar Full Stack Developer
           </p>
-        </div> */}
+        </div>
       </div>
     </footer>
   );
