@@ -1,6 +1,6 @@
 import { Github, Linkedin, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/profile1.png";
+import profileImage from "@/assets/Profile.png";
 import resumefile from"@/assets/Aakash Kumar Resume.pdf";
 
 export function HeroSection() {
